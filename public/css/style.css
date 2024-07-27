@@ -15,7 +15,7 @@ h4 {
 }
 h2 {
   text-transform: uppercase;
-  margin: 0 0 20px;
+  margin: 0 0 20px 0;
   font-weight: 800;
   font-size: 36px;
   color: #333;
@@ -95,7 +95,7 @@ hr {
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 9px 20px 0 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -206,9 +206,10 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
+  background: url(../img/intro-bg.jpg) center center no-repeat;
+  position: relative;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,32 +221,36 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #faf7f7;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  padding-bottom: 6px;
 }
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: #faf7f7;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 350;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  padding: 10px;
 }
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
+  margin-right: auto;
 }
 /* Features Section */
 #features {
+  padding: 100px 0;
   background: #f6f6f6;
 }
 #features i.fa {
@@ -266,7 +271,7 @@ header .intro-text {
 }
 #about h3 {
   font-size: 22px;
-  margin: 0 0 20px;
+  margin: 0 0 20px 0;
 }
 #about h2 {
   position: relative;
@@ -287,12 +292,13 @@ header .intro-text {
   margin-left: 6px;
   list-style: none;
   padding: 0;
+  font-size: 14px;
 }
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -306,18 +312,19 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+  font-size: medium;
 }
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #8f8a8ae1 1%, #628cb9 100%);
   color: #fff;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #000000d3;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -342,10 +349,10 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #000000d3;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #000000d3;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -373,7 +380,7 @@ header .intro-text {
     rgba(99, 114, 255, 0.8) 0%,
     rgba(92, 169, 251, 0.8) 100%
   );
-  padding: 30% 0 0;
+  padding: 30% 0 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -439,6 +446,7 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
+
 /* Team Section */
 #team {
   padding: 100px 0;
@@ -454,17 +462,19 @@ header .intro-text {
   border: 0;
 }
 #team .thumbnail .caption {
-  padding: 10px 0 0;
+  padding: 10px 0 0 0;
   color: #888;
 }
+
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  padding: 100px 0 60px 0;
+  background: linear-gradient(to right, rgb(32, 32, 32) 0%, #62676d 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
   margin-bottom: 40px;
+  border-radius: 20px;
 }
 #contact .section-title p {
   font-size: 16px;
@@ -550,6 +560,7 @@ label {
 }
 #contact .contact-item {
   margin: 20px 0;
+  cursor: pointer;
 }
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);
@@ -585,7 +596,7 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: #fff;
   padding: 30px 0;
 }
 #footer p {
@@ -603,4 +614,120 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Team.css */
+
+#team {
+  padding: 50px 0;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.team-thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team-img {
+  width: 100%;
+  max-width: 200px; /* Adjust size as needed */
+  border-radius: 50%; /* Optional: make image circular */
+  margin-bottom: 10px;
+}
+
+.team-caption {
+  margin-top: 10px;
+}
+
+.team-caption h4 {
+  margin: 0;
+}
+
+.team-caption p {
+  margin: 5px 0 0;
+}
+
+/* Ensure that images fit within their containers */
+.img-responsive {
+  max-width: 100%; /* Scale down the image to fit within its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Add container styling for responsiveness */
+.portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hover-bg {
+  width: 100%;
+  position: relative;
+}
+
+/* Optional: Add a max-width to ensure images don’t get too large */
+.img-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Ensure images are responsive and fit their container */
+.img-responsive {
+  width: 100%; /* Make image take up the full width of its container */
+  height: 600px; /* Maintain aspect ratio */
+}
+
+/* Styling for portfolio items and hover effects */
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px; /* Space between items */
+}
+
+.hover-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.portfolio-item:hover .hover-text {
+  opacity: 1;
 }

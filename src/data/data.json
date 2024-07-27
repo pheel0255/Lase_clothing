@@ -1,164 +1,92 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "𝙻𝚊𝚜𝚎_𝙲𝚕𝚘𝚝𝚑𝚒𝚗𝚐 𝙳𝚎𝚜𝚒𝚐𝚗",
+    "paragraph": "Discover the future of fashion with our customizable eco-friendly line. Every piece is made from sustainable materials and designed to your specification, blending style, comfort, and responsibility"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Welcome to Lase_Clothing, where styles meets elegance. Founded with a passion for design and commitment to quality, we aim to bring you the latest trends and timeless classics that elevate your wardrobe. Our journey began in 2019, and since then, we've been dedicated to curating collections that inspire confidence and celebrate individuality. Each piece is crafted with meticulous attention to detail, using only the finest materials, ensuring that you not only look good but feel great..",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Unparalleled Quality: We believe in quality over quantity. Every item in our collection is made from premium fabrics and materials, designed to last and keep you looking your best season after season.",
+
+      "Exclusive Designs: Our in-house designers work tirelessly to create unique pieces that stand out. We blend contemporary fashion with classic styles, offering a diverse range of outfits for every occasion."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Sustainable Practices: We're committed to sustainability. We strive to minimize our environmental footprint while providing you with stunning fashion choices",
+
+      "Personalized Service: Your satisfaction is our priority. Our customer service team is always here to assist you, ensuring a seamless shopping experience from start to finish."
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
+
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Personal Styling",
+      "text": "Our expert stylists are here to help you discover your unique style. Whether you're looking for a complete wardrobe overhaul or an outfit for a special occasion, our personal styling service provides one-on-one consultations to curate looks that suit your taste and lifestyle.."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Custom Tailoring",
+      "text": "We understand that the perfect fit is essential. Our custom tailoring service ensures that your chosen pieces are tailored to your exact measurements. From minor adjustments to complete alterations, we provide professional tailoring to achieve the ideal fit.."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Virtual Consultations",
+      "text": "Can't visit us in person? No problem! Our virtual consultation service allows you to connect with our stylists from the comfort of your home. We offer personalized fashion advice, styling tips, and outfit recommendations through video calls.."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Wardrobe Makeovers",
+      "text": "Revamp your closet with our wardrobe makeover service. Our stylists will work with you to assess your current wardrobe, identify gaps, and suggest new pieces to create a cohesive and stylish collection that reflects your personality.."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Fashion Workshops",
+      "text": "Stay ahead of the trends with our fashion workshops. From seasonal style updates to trend forecasting and styling tutorials, our workshops provide valuable insights and practical tips to keep you looking fabulous year-round.."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Sustainable Fashion Initiatives",
+      "text": "Join us in our commitment to sustainability. We offer recycling programs for your old clothes and provide information on how to care for your garments to extend their life. Together, we can make fashion more sustainable.."
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"I'm in love with the quality and uniqueness of the clothing from Lase_Clothing. Every piece I've bought and sew feels luxurious and has become a staple in my wardrobe. Highly recommend!.\"",
+      "name": "Esther"
+    },
+    {
+      "text": "\"I appreciate the diversity and inclusivity of this fashion brand. They offer a wide range of sizes and styles that cater to all body types, making everyone feel beautiful and represented.\"",
+      "name": "Joy"
+    },
+    {
+      "text": "\"The prices are very reasonable for the quality and style offered. I feel like I'm getting great value for my money with every purchase. It's a win-win situation!.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Lase_Clothing always has the latest trends. I love being able to find stylish, up-to-date clothing that makes me feel confident and fashionable. Their collections never disappoint!.\"",
+      "name": "Kemi"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"XMy orders always arrive quickly and are beautifully packaged. It's clear that this business cares about its customers and the presentation of its products. I look forward to every delivery!.\"",
+      "name": "Mary"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"The customer service is top-notch! They were quick to respond to my inquiries and went above and beyond to ensure I was satisfied with my purchase. It makes shopping here a pleasant experience..\"",
+      "name": "Grace"
     }
   ],
+
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Toba Toluwase",
+      "job": "Fashion Designer"
     }
   ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
+
+  "Contact": [
+    {
+      "address": "Abuja FCT Nigeria ",
+      "phone": "+234 8157050147",
+      "email": "tobatolu14@gmail.com",
+      "instagram": "lase__clothing",
+      "twitter": "@toluwase_"
+    }
+  ],
   "Features": [
     {
       "icon": "fa fa-comments-o",
